@@ -1,3 +1,15 @@
 h1 {
   color: brown;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: brown;
 }
