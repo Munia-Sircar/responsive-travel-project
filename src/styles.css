@@ -1,14 +1,65 @@
-h1 {
-  color: brown;
+body {
+  background-color: #272044;
   font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/abika-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 50px;
+}
+
+header h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+header h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+
+header h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+header a {
+  padding: 12px 15px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
 }
 
 a {
-  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  color: brown;
+  color: rgb(189, 79, 79);
 }
 
 footer {
-  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 35px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
