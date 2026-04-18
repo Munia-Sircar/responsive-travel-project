@@ -44,8 +44,6 @@ a {
 
 main {
   background-color: white;
-
-  padding: 30px 50px;
 }
 
 main h3 {
@@ -69,8 +67,8 @@ footer {
 }
 
 section {
+  max-width: 100%;
   margin: 0 auto;
-  margin-top: 20px;
 }
 
 ul {
@@ -92,6 +90,7 @@ img {
 .grid {
   display: grid;
   grid-gap: 64px;
+  padding: 30px 20px;
 }
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
@@ -99,6 +98,42 @@ img {
 
 .grid-3-col {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.card-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.cards {
+  background-color: #f8f8f8;
+}
+
+.title {
+  padding: 30px 40px;
+  text-align: center;
+  line-height: 1;
+}
+.card-header {
+  line-height: 0;
+}
+.card-body {
+  padding: 30px;
+  background-color: white;
+}
+
+.card-body a {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 10px;
+  border-radius: 5px;
+}
+
+.card-footer {
+  margin-top: 50px;
 }
 
 @media (max-width: 900px) {
