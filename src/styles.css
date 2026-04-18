@@ -4,14 +4,8 @@ body {
 }
 
 header {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/abika-photo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   color: white;
   text-align: center;
-  padding: 100px 50px;
 }
 
 header h1 {
@@ -45,11 +39,41 @@ a {
 footer {
   text-align: center;
   color: white;
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .container {
-  max-width: 95%;
+  max-width: 80%;
   margin: 0 auto;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/photo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+}
+
+.footer-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/photo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  padding: 100px 50px;
 }
 
 @media (max-width: 900px) {
