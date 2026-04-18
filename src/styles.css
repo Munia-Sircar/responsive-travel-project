@@ -6,8 +6,6 @@ body {
 header {
   color: white;
   text-align: center;
-  max-width: 80%;
-  margin: 0 auto;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(/images/photo1.jpg);
@@ -44,19 +42,35 @@ a {
   color: rgb(189, 79, 79);
 }
 
+main {
+  background-color: white;
+
+  padding: 30px 50px;
+}
+
+main h3 {
+  opacity: 40%;
+  margin: 0;
+  text-transform: uppercase;
+}
+main p {
+  opacity: 60%;
+}
+
 footer {
-  max-width: 80%;
-  margin: 0 auto;
-  color: white;
-  margin-top: 20px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/images/photo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   text-align: left;
   padding: 100px 50px;
+  color: white;
+}
+
+section {
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 ul {
@@ -65,6 +79,9 @@ ul {
 
 li {
   list-style: none;
+}
+img {
+  max-width: 600px;
 }
 
 .container {
@@ -77,6 +94,10 @@ li {
   grid-gap: 64px;
 }
 .grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
