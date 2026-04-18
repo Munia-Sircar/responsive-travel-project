@@ -81,6 +81,9 @@ li {
 img {
   max-width: 600px;
 }
+iframe {
+  border-radius: 8px;
+}
 
 .container {
   max-width: 1400px;
@@ -113,7 +116,7 @@ img {
 }
 
 .title {
-  padding: 30px 40px;
+  padding: 20px;
   text-align: center;
   line-height: 1;
 }
@@ -145,6 +148,10 @@ img {
   }
   header h3 {
     font-size: 12px;
+  }
+  iframe {
+    display: block;
+    margin: 0 auto;
   }
   .grid {
     grid-template-columns: 1fr;
